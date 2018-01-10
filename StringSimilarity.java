@@ -15,7 +15,7 @@ public class StringSimilarity {
 			}
 		int total = 0;
 		for(int c : recur) {
-			total++;
+			total+=c;
 		}
 		return total;
 	}
